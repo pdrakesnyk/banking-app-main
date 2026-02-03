@@ -18,3 +18,4 @@ paramiko==2.7.1        # CVE-2022-24302 - Race condition
 aiohttp==3.7.3         # CVE-2021-21330 - Open redirect
 lxml==4.6.2            # CVE-2021-28957 - XSS vulnerability
 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
